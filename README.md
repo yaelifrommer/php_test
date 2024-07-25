@@ -1,5 +1,6 @@
 # GildedRose Kata - PHP Version
-# Yael Frommer.
+**Yael Frommer**
+
 ## Installation
 
 To set up the project, ensure you have the following:
@@ -13,7 +14,7 @@ To set up the project, ensure you have the following:
 1. **Clone the repository:**
 
     ```sh
-    git clone https://github.com/hyfrommer/php.git
+    git clone https://github.com/yaelifrommer/php_test.git
     ```
 
 2. **Navigate to the PHP directory and install dependencies:**
@@ -43,15 +44,14 @@ This project relies on the following Composer packages:
 
 - **`tests/`**: Contains test files.
     - `GildedRoseTest.php` - Includes the final test case which uses the fixture `texttest_fixture3.php`. This test captures the output of the fixture and compares it against the expected output file using the ApprovalTests library. The expected output is stored in `ApprovalTest.testFoo.approved.txt`. If there is a mismatch, the actual output will be available in the corresponding received file.
-
     - `ApprovalTest.php` - Includes two test cases:
         - `testFoo()` - Uses the fixture `texttest_fixture_2.php`. This test captures the output and compares it with the expected output file `ApprovalTest.testFoo.approved.txt`. In case of a mismatch, the actual output will be available in the corresponding received file.
         - `testThirtyDays()` - Uses the fixture `texttest_fixture.php`. This test captures the output for a scenario of 30 days and compares it with the expected output file `ApprovalTest.testThirtyDays.approved.txt`. The actual output will be saved in the corresponding received file if there's a mismatch.
 
 - **`fixtures/`**: Contains fixture files.
-    - `texttest_fixture.php` -  It is employed by the `testThirtyDays()` method in `ApprovalTest.php` to validate output for a 30-day period.
-    - `texttest_fixture_2.php` -  It is employed by the `testFoo()` method in `ApprovalTest.php`.
-    - `texttest_fixture_3.php` -  It is employed by the `testFoo()` method in `GildedRoseTest.php`.
+    - `texttest_fixture.php` -  Employed by the `testThirtyDays()` method in `ApprovalTest.php` to validate output for a 30-day period.
+    - `texttest_fixture_2.php` -  Employed by the `testFoo()` method in `ApprovalTest.php`.
+    - `texttest_fixture_3.php` -  Employed by the `testFoo()` method in `GildedRoseTest.php`.
 
 ## Fixture Usage
 
@@ -61,44 +61,81 @@ To run fixtures, use the following commands:
 php fixtures/texttest_fixture.php 10
 php fixtures/texttest_fixture_2.php
 php fixtures/texttest_fixture_3.php
+```
 
-Replace 10 with the number of days as needed.
+Replace `10` with the number of days as needed.
 
-Testing
-Running Unit Tests
+## Testing
+
+### Running Unit Tests
+
 To execute unit tests:
 
--composer tests
+```sh
+composer tests
+```
+
 For Windows users:
+
+```sh
 pu.bat
+```
 
--Generating Test Coverage Report
+### Generating Test Coverage Report
+
 To run tests and generate an HTML coverage report:
+
+```sh
 composer test-coverage
+```
 
-The coverage report will be saved in the /builds directory. Open /builds/index.html in your browser to view it.
+The coverage report will be saved in the `/builds` directory. Open `/builds/index.html` in your browser to view it.
 
-Note: Xdebug is required for generating the coverage report. Follow the Xdebug installation guide if necessary.
+**Note:** Xdebug is required for generating the coverage report. Follow the [Xdebug installation guide](https://xdebug.org/docs/install) if necessary.
 
--Code Standards
-Checking Code Standards
+### Code Standards
+
+#### Checking Code Standards
+
 To check the code against PSR-12 standards without fixing errors:
 
+```sh
 composer check-cs
+```
+
 For Windows users:
+
+```sh
 cc.bat
+```
 
--Fixing Code Standards
+#### Fixing Code Standards
+
 To automatically fix code style issues:
-composer fix-cs
-For Windows users:
-fc.bat
 
--Static Analysis
-To perform static analysis using PHPStan:
-composer phpstan
+```sh
+composer fix-cs
+```
+
 For Windows users:
+
+```sh
+fc.bat
+```
+
+### Static Analysis
+
+To perform static analysis using PHPStan:
+
+```sh
+composer phpstan
+```
+
+For Windows users:
+
+```sh
 ps.bat
+```
 
 ## Changes, Improvements, and Fixes
 
@@ -109,19 +146,20 @@ ps.bat
   - `Sulfuras` - Manages Sulfuras items.
   - `BackstagePass` - Manages Backstage Pass items.
 
-### Updates to updateQuality() and Testing
-Invalid Objects Handling: Revised updateQuality() to address invalid objects:
-ApprovalTest: Now expects updateQuality() to return an empty array when invalid objects are encountered. This is validated by the test checking if $items is an empty array using $this->assertSame([], $items).
-GildedRoseTest: Clarified that if updateQuality() detects an invalid object, it should either return an empty array or correct the object name to fixme. Approval files have been updated to reflect these changes, showing expected results such as [0] -> fixme, -1, 0 for valid objects and handling of invalid cases.
+### Updates to `updateQuality()` and Testing
+
+- **Invalid Objects Handling**: Revised `updateQuality()` to address invalid objects:
+  - **ApprovalTest**: Now expects `updateQuality()` to return an empty array when invalid objects are encountered. This is validated by the test checking if `$items` is an empty array using `$this->assertSame([], $items)`.
+  - **GildedRoseTest**: Clarified that if `updateQuality()` detects an invalid object, it should either return an empty array or correct the object name to `fixme`. Approval files have been updated to reflect these changes, showing expected results such as `[0] -> fixme, -1, 0` for valid objects and handling of invalid cases.
 
 ### Approval Files Adjustment
-Approval Files: Updated for consistency with new test behavior:
-ApprovalTest.php: Adjusted to verify outputs using texttest_fixure2.php and texttest_fixture.php. The test now correctly captures outputs and compares them with expected results.
-GildedRoseTest.php: Aligned to use texttest_fixture3.php for final test case, reflecting accurate expected outputs in ApprovalTest.testFoo.approved.txt.
+
+- **Approval Files**: Updated for consistency with new test behavior:
+  - **ApprovalTest.php**: Adjusted to verify outputs using `texttest_fixure2.php` and `texttest_fixture.php`. The test now correctly captures outputs and compares them with expected results.
+  - **GildedRoseTest.php**: Aligned to use `texttest_fixture3.php` for final test case, reflecting accurate expected outputs in `ApprovalTest.testFoo.approved.txt`.
 
 ### Handling of Negative Expiry Dates
 
 - **Negative Expiry Dates**: Updated `updateQuality()` to handle negative `sellIn` and `quality` values. If these values are negative, the function now sets the item name to `fixme` to indicate the need for correction.
 
 These updates improve the accuracy and functionality of the project, ensuring proper validation and handling of item types and edge cases.
-
