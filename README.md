@@ -1,5 +1,5 @@
 # GildedRose Kata - PHP Version
-**Yael Frommer**
+**Yaela Frommer**
 
 ## Installation
 
