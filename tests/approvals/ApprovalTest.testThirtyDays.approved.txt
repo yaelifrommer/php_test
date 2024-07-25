@@ -1,0 +1,361 @@
+OMGHAI!
+-------- day 0 --------
+name, sellIn, quality
++5 Dexterity Vest, 10, 20
+Aged Brie, 2, 0
+Elixir of the Mongoose, 5, 7
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 15, 20
+Backstage passes to a TAFKAL80ETC concert, 10, 49
+Backstage passes to a TAFKAL80ETC concert, 5, 49
+Conjured Mana Cake, 3, 6
+
+-------- day 1 --------
+name, sellIn, quality
++5 Dexterity Vest, 9, 19
+Aged Brie, 1, 1
+Elixir of the Mongoose, 4, 6
+Sulfuras, Hand of Ragnaros, 0, 80
+fixme, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 14, 21
+Backstage passes to a TAFKAL80ETC concert, 9, 50
+Backstage passes to a TAFKAL80ETC concert, 4, 50
+Conjured Mana Cake, 2, 5
+
+-------- day 2 --------
+name, sellIn, quality
++5 Dexterity Vest, 8, 18
+Aged Brie, 0, 2
+Elixir of the Mongoose, 3, 5
+Sulfuras, Hand of Ragnaros, 0, 80
+fixme, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 13, 22
+Backstage passes to a TAFKAL80ETC concert, 8, 50
+Backstage passes to a TAFKAL80ETC concert, 3, 50
+Conjured Mana Cake, 1, 4
+
+-------- day 3 --------
+name, sellIn, quality
++5 Dexterity Vest, 7, 17
+fixme, -1, 4
+Elixir of the Mongoose, 2, 4
+Sulfuras, Hand of Ragnaros, 0, 80
+fixme, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 12, 23
+Backstage passes to a TAFKAL80ETC concert, 7, 50
+Backstage passes to a TAFKAL80ETC concert, 2, 50
+Conjured Mana Cake, 0, 3
+
+-------- day 4 --------
+name, sellIn, quality
++5 Dexterity Vest, 6, 16
+fixme, -2, 6
+Elixir of the Mongoose, 1, 3
+Sulfuras, Hand of Ragnaros, 0, 80
+fixme, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 11, 24
+Backstage passes to a TAFKAL80ETC concert, 6, 50
+Backstage passes to a TAFKAL80ETC concert, 1, 50
+fixme, -1, 1
+
+-------- day 5 --------
+name, sellIn, quality
++5 Dexterity Vest, 5, 15
+fixme, -3, 8
+Elixir of the Mongoose, 0, 2
+Sulfuras, Hand of Ragnaros, 0, 80
+fixme, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 10, 25
+Backstage passes to a TAFKAL80ETC concert, 5, 50
+Backstage passes to a TAFKAL80ETC concert, 0, 50
+fixme, -2, 0
+
+-------- day 6 --------
+name, sellIn, quality
++5 Dexterity Vest, 4, 14
+fixme, -4, 10
+fixme, -1, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+fixme, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 9, 27
+Backstage passes to a TAFKAL80ETC concert, 4, 50
+fixme, -1, 0
+fixme, -3, 0
+
+-------- day 7 --------
+name, sellIn, quality
++5 Dexterity Vest, 3, 13
+fixme, -5, 12
+fixme, -2, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+fixme, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 8, 29
+Backstage passes to a TAFKAL80ETC concert, 3, 50
+fixme, -2, 0
+fixme, -4, 0
+
+-------- day 8 --------
+name, sellIn, quality
++5 Dexterity Vest, 2, 12
+fixme, -6, 14
+fixme, -3, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+fixme, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 7, 31
+Backstage passes to a TAFKAL80ETC concert, 2, 50
+fixme, -3, 0
+fixme, -5, 0
+
+-------- day 9 --------
+name, sellIn, quality
++5 Dexterity Vest, 1, 11
+fixme, -7, 16
+fixme, -4, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+fixme, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 6, 33
+Backstage passes to a TAFKAL80ETC concert, 1, 50
+fixme, -4, 0
+fixme, -6, 0
+
+-------- day 10 --------
+name, sellIn, quality
++5 Dexterity Vest, 0, 10
+fixme, -8, 18
+fixme, -5, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+fixme, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 5, 35
+Backstage passes to a TAFKAL80ETC concert, 0, 50
+fixme, -5, 0
+fixme, -7, 0
+
+-------- day 11 --------
+name, sellIn, quality
+fixme, -1, 8
+fixme, -9, 20
+fixme, -6, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+fixme, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 4, 38
+fixme, -1, 0
+fixme, -6, 0
+fixme, -8, 0
+
+-------- day 12 --------
+name, sellIn, quality
+fixme, -2, 6
+fixme, -10, 22
+fixme, -7, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+fixme, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 3, 41
+fixme, -2, 0
+fixme, -7, 0
+fixme, -9, 0
+
+-------- day 13 --------
+name, sellIn, quality
+fixme, -3, 4
+fixme, -11, 24
+fixme, -8, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+fixme, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 2, 44
+fixme, -3, 0
+fixme, -8, 0
+fixme, -10, 0
+
+-------- day 14 --------
+name, sellIn, quality
+fixme, -4, 2
+fixme, -12, 26
+fixme, -9, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+fixme, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 1, 47
+fixme, -4, 0
+fixme, -9, 0
+fixme, -11, 0
+
+-------- day 15 --------
+name, sellIn, quality
+fixme, -5, 0
+fixme, -13, 28
+fixme, -10, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+fixme, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 0, 50
+fixme, -5, 0
+fixme, -10, 0
+fixme, -12, 0
+
+-------- day 16 --------
+name, sellIn, quality
+fixme, -6, 0
+fixme, -14, 30
+fixme, -11, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+fixme, -1, 80
+fixme, -1, 0
+fixme, -6, 0
+fixme, -11, 0
+fixme, -13, 0
+
+-------- day 17 --------
+name, sellIn, quality
+fixme, -7, 0
+fixme, -15, 32
+fixme, -12, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+fixme, -1, 80
+fixme, -2, 0
+fixme, -7, 0
+fixme, -12, 0
+fixme, -14, 0
+
+-------- day 18 --------
+name, sellIn, quality
+fixme, -8, 0
+fixme, -16, 34
+fixme, -13, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+fixme, -1, 80
+fixme, -3, 0
+fixme, -8, 0
+fixme, -13, 0
+fixme, -15, 0
+
+-------- day 19 --------
+name, sellIn, quality
+fixme, -9, 0
+fixme, -17, 36
+fixme, -14, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+fixme, -1, 80
+fixme, -4, 0
+fixme, -9, 0
+fixme, -14, 0
+fixme, -16, 0
+
+-------- day 20 --------
+name, sellIn, quality
+fixme, -10, 0
+fixme, -18, 38
+fixme, -15, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+fixme, -1, 80
+fixme, -5, 0
+fixme, -10, 0
+fixme, -15, 0
+fixme, -17, 0
+
+-------- day 21 --------
+name, sellIn, quality
+fixme, -11, 0
+fixme, -19, 40
+fixme, -16, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+fixme, -1, 80
+fixme, -6, 0
+fixme, -11, 0
+fixme, -16, 0
+fixme, -18, 0
+
+-------- day 22 --------
+name, sellIn, quality
+fixme, -12, 0
+fixme, -20, 42
+fixme, -17, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+fixme, -1, 80
+fixme, -7, 0
+fixme, -12, 0
+fixme, -17, 0
+fixme, -19, 0
+
+-------- day 23 --------
+name, sellIn, quality
+fixme, -13, 0
+fixme, -21, 44
+fixme, -18, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+fixme, -1, 80
+fixme, -8, 0
+fixme, -13, 0
+fixme, -18, 0
+fixme, -20, 0
+
+-------- day 24 --------
+name, sellIn, quality
+fixme, -14, 0
+fixme, -22, 46
+fixme, -19, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+fixme, -1, 80
+fixme, -9, 0
+fixme, -14, 0
+fixme, -19, 0
+fixme, -21, 0
+
+-------- day 25 --------
+name, sellIn, quality
+fixme, -15, 0
+fixme, -23, 48
+fixme, -20, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+fixme, -1, 80
+fixme, -10, 0
+fixme, -15, 0
+fixme, -20, 0
+fixme, -22, 0
+
+-------- day 26 --------
+name, sellIn, quality
+fixme, -16, 0
+fixme, -24, 50
+fixme, -21, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+fixme, -1, 80
+fixme, -11, 0
+fixme, -16, 0
+fixme, -21, 0
+fixme, -23, 0
+
+-------- day 27 --------
+name, sellIn, quality
+fixme, -17, 0
+fixme, -25, 50
+fixme, -22, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+fixme, -1, 80
+fixme, -12, 0
+fixme, -17, 0
+fixme, -22, 0
+fixme, -24, 0
+
+-------- day 28 --------
+name, sellIn, quality
+fixme, -18, 0
+fixme, -26, 50
+fixme, -23, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+fixme, -1, 80
+fixme, -13, 0
+fixme, -18, 0
+fixme, -23, 0
+fixme, -25, 0
+
+-------- day 29 --------
+name, sellIn, quality
+fixme, -19, 0
+fixme, -27, 50
+fixme, -24, 0
+Sulfuras, Hand of Ragnaros, 0, 80
+fixme, -1, 80
+fixme, -14, 0
+fixme, -19, 0
+fixme, -24, 0
+fixme, -26, 0
+
